@@ -1,0 +1,154 @@
+/* font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+
+
+.logo {
+    display: flex;
+
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #eee;
+    font-family: "Poppins", sans-serif;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    box-shadow: 0 0.2px 0px 0px rgb(40, 40, 40);
+    align-items: center;
+    background-color: white;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    transition: 1s;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* promo */
+
+.isi-promo p{
+    margin-left: 20px;
+}
+
+.container-promo {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.foto-promo2 {
+    z-index: 1;
+    position: absolute;
+}
+
+
+.promo img {
+    width:600px;
+}
+
+.promo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 70vh;
+    background-color: white;
+    width: fit-content;
+    height: fit-content;
+}
+
+.iphone1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.isi-promo {
+    width: 600px;
+}
+
+.isi-content img{
+    width: 50px;
+}
+
+.isi-content {
+    width: 600px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 60px;
+    justify-content: center;
+}
+
+.iphone1 {
+    font-size: 13px;
+    color: rgb(58, 58, 58);
+    width: 100px;
+}
+
+
+.isi-promo {
+    color: rgb(58, 58, 58);
+}
+
+.iphone1:hover {
+    text-decoration: none;
+}
+
+/* slider chatgpt */
+
+.slider {
+    position: relative;
+    max-width: 600px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.slides {
+    display: flex;
+    transition: transform 0.5s ease-in-out;
+}
+
+.slide {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+
+.slide img {
+    width: 600px;
+    height: auto;
+    display: block;
+}
+
+button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    z-index: 1000;
+}
+
+.prev {
+    left: 0;
+}
+
+.next {
+    right: 0;
+}
